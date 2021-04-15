@@ -6,6 +6,7 @@ function Footer(props) {
       <div className="Footer component">
         Footer
         <SocialMedia />
+        <a href={props.imgURL} target="_blank">My image</a>
       </div>
   );
 }
