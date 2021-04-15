@@ -1,9 +1,11 @@
 import React from 'react';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 function Footer(props) {
   return (
-      <div className="component">
+      <div className="Footer component">
         Footer
+        <SocialMedia />
       </div>
   );
 }

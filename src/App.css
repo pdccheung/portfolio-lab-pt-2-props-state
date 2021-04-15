@@ -1,16 +1,46 @@
 
-
 .App {
   text-align: center;
-  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.6fr 3.5fr 3fr ;
 }
 
-.App-header {
-  background-color: #222;
-  height: 50px;
-  padding: 20px;
-  color: white;
-  font-size: 40px;
-  text-align: center;
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
 }
 
+
+.AboutMe{
+  flex-direction: row;
+  align-items: center;
+  font-size: 2vmin;
+
+}
+
+
+.Skills{
+  flex-direction: row;
+  align-items: center;
+  font-size: 2vmin;
+
+}
+
+
+.Portfolio{
+  flex-direction: row;
+  align-items: center;
+  font-size: 2vmin;
+
+}
+
+
+.Footer{
+  flex-direction: row;
+  align-items: center;
+  font-size: 2vmin;
+
+}
