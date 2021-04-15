@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.component {
+  border: 2px dotted red;
+  margin: 4px;
+  padding: 4px;
+}
+
+#root {
+  height: 100%;
+  background-color: aqua;
+}
